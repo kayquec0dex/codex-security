@@ -59,3 +59,15 @@ codex-security/
 ├── main.py
 └── README.md
 ```
+
+## Contribuição
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (git checkout -b feature/nova-feature)
+3. Commit suas alterações (git commit -am 'Adiciona nova feature')
+4. Push para a branch (git push origin feature/nova-feature)
+5. Crie um novo Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
