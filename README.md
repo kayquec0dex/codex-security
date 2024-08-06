@@ -1,23 +1,61 @@
-# C0dex URL Checker
+# C0DEX SECURITY
 
-**C0dex URL Checker** é uma aplicação de desktop desenvolvida em Python usando a biblioteca Tkinter. O aplicativo permite verificar a segurança de URLs utilizando a API do VirusTotal, fornecendo uma interface gráfica para inserção de URLs e recebendo relatórios detalhados sobre a segurança das URLs.
+## Descrição
+
+O C0dex Security é uma ferramenta que utiliza a API do VirusTotal para verificar a segurança de URLs. Ele oferece uma interface gráfica simples usando Tkinter, onde os usuários podem inserir uma URL e receber informações sobre possíveis ameaças.
 
 ## Funcionalidades
 
-- **Verificação de URL**: Envia a URL fornecida para a API do VirusTotal e exibe o status de segurança.
-- **Interface Gráfica**: Oferece uma interface moderna e intuitiva.
-- **Resultados Detalhados**: Mostra o status da URL e detalhes sobre a última verificação.
+- Verificação de URLs usando a API do VirusTotal.
+- Interface gráfica amigável com Tkinter.
 
-## Requisitos
+## Pré-requisitos
 
 - Python 3.x
-- Bibliotecas: `tkinter`, `requests`, `json`
-- Chave de API do [VirusTotal](https://www.virustotal.com/)
+- Bibliotecas Python: `requests`, `tkinter`
+- Chaves de API do VirusTotal
 
 ## Instalação
 
-1. **Clone o repositório:**
+1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/seu-usuario/kayquec0dex-url-checker.git
-   cd kayquec0dex-url-checker
+   ```sh
+   git clone https://github.com/kayquec0dex/codex-security.git
+   cd codex-security
+   ```
+
+2. Instale as dependências:
+
+   ```sh
+   pip install requests
+   pip install tkinter
+   ```
+
+3. Adicione suas chaves de API ao arquivo `config.json`:
+
+   ```json
+   {
+     "API_KEY_VIRUSTOTAL": "SUA_API_KEY_VIRUSTOTAL"
+   }
+   ```
+
+## Uso
+
+1. Execute o script principal:
+
+   ```sh
+   python main.py
+   ```
+
+2. Digite a URL que deseja verificar na interface gráfica e clique em "Verificar".
+
+## Estrutura do Projeto
+
+```plaintext
+codex-security/
+│
+├── config.json
+├── icon.png
+├── main.py
+└── README.md
+```
