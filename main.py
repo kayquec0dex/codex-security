@@ -5,15 +5,16 @@ import json
 import os
 import requests
 
-def API():
+def API_VIRUSTOTAL():
     dir_now = os.path.dirname(__file__)
     arq_json = os.path.join(dir_now, 'config.json')
     with open(arq_json, 'r') as arq:
         data = json.load(arq)
     return data.get('API_KEY')
 
-API_KEY = API()
+API_KEY = API_VIRUSTOTAL()
 API_URL = 'https://www.virustotal.com/vtapi/v2/url/report'
+
 
 def check_url():
     url = entry_url.get()
