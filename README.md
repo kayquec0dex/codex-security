@@ -1,73 +1,73 @@
 # C0dex Security
 
-## Descrição
+##Description
 
-O C0dex Security é uma ferramenta que utiliza a API do VirusTotal para verificar a segurança de URLs. Ele oferece uma interface gráfica simples usando Tkinter, onde os usuários podem inserir uma URL e receber informações sobre possíveis ameaças.
+C0dex Security is a tool that uses the VirusTotal API to check the security of URLs. It offers a simple graphical interface using Tkinter, where users can enter a URL and receive information about possible threats.
 
-## Funcionalidades
+## Features
 
-- Verificação de URLs usando a API do VirusTotal.
-- Interface gráfica amigável com Tkinter.
+- Checking URLs using VirusTotal API.
+- User-friendly graphical interface with Tkinter.
 
-## Pré-requisitos
+## Prerequisites
 
-- Python 3.x
-- Bibliotecas Python: `requests`, `tkinter`
-- Chaves de API do VirusTotal
+-Python 3.x
+- Python libraries: `requests`, `tkinter`
+- VirusTotal API Keys
 
-## Instalação
+##Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```sh
    git clone https://github.com/kayquec0dex/codex-security.git
    cd codex-security
    ```
 
-2. Instale as dependências:
+2. Install dependencies:
 
    ```sh
-   pip install requests
+   pip installation requests
    pip install tkinter
    ```
 
-3. Adicione suas chaves de API ao arquivo `config.json`:
+3. Add your API keys to the `config.json` file:
 
    ```json
    {
-     "API_KEY_VIRUSTOTAL": "SUA_API_KEY_VIRUSTOTAL"
+     "API_KEY_VIRUSTOTAL": "YOUR_API_KEY_VIRUSTOTAL"
    }
    ```
 
-## Uso
+## Usage
 
-1. Execute o script principal:
+1. Run the main script:
 
    ```sh
    python main.py
    ```
 
-2. Digite a URL que deseja verificar na interface gráfica e clique em "Verificar".
+2. Enter the URL you want to check in the graphical interface and click "Check".
 
-## Estrutura do Projeto
+## Project Structure
 
-```plaintext
-codex-security/
+```plain text
+codex security/
 │
-├── config.json
+├──config.json
 ├── icon.png
 ├── main.py
 └── README.md
 ```
 
-## Contribuição
+## Contribution
 
-1. Fork o projeto
-2. Crie uma branch para sua feature (git checkout -b feature/nova-feature)
-3. Commit suas alterações (git commit -am 'Adiciona nova feature')
-4. Push para a branch (git push origin feature/nova-feature)
-5. Crie um novo Pull Request
+1. Project fork
+2. Create a branch for your feature (git checkout -b feature/nova-feature)
+3. Commit your changes (git commit -am 'Add new feature')
+4. Push to a branch (git push origin feature/nova-feature)
+5. Create a new pull request
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License. See the LICENSE file for more details.
